@@ -1,4 +1,31 @@
+*{
+    margin: 0;
+}
+body{
+    padding:20px;
+}
+
 .pic {
     height: 300px;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+.logo {
+    height: 50px;
     width: auto;
 }
